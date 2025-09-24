@@ -1,34 +1,28 @@
 body {
-  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  background: linear-gradient(to right, #ffe0ec, #fcd4b8);
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
-  padding: 50px;
-  color: #333;
+  padding: 60px;
+  color: #4a4a4a;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 700px;
   margin: auto;
+  background: #fff8f0;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   color: #ff4081;
+  margin-bottom: 30px;
 }
 
 .message {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-.cake, .balloons {
-  width: 200px;
-  margin: 20px;
-  animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
-  100% { transform: translateY(0); }
+  font-size: 1.3em;
+  line-height: 1.8;
+  white-space: pre-line;
 }
